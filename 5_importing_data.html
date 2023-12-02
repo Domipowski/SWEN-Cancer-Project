@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropbtn{background-color:aquamarine;padding:8px;font-size:14px}
+      .dropdown{display:inline-block}
+      .dropdown-content{display:none;background-color:aliceblue;box-shadow:0x4px8px0px grey}
+      .dropdown:hover .dropdown-content{display:block;}
+    </style>
+  </head>
+  <body>
+    <h1 align="center">Importing Data</h1>
+    <hr>
+    <p align="center">Since you have proven validity for importing data, please submit any data relevant to the site here. Check guidelines below for what data can and should be imported.</p>
+    <p align="center">Click on the "Choose File" button to upload a file:</p>
+      <form action="/action_page.php" align="center">
+        <input type="file" id="myFile" name="filename">
+        <input type="submit">
+      <br>
+      <br>
+      <br>
+      <div class="dropdown">
+        <button class="dropbtn">Guidelines</button>
+        <div class="dropdown-content">
+          <p><b>Any forms of data which relate to cancer research can be uploaded here.<br>These include but are not limited to:</b></p>
+          <p style="margin-left: 5px;" align="left">-Cancer Statistics<br>-Hospital Information<br>-Patient Information<br>-Treatment Data</p>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

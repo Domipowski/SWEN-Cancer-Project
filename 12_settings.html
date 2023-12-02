@@ -3,10 +3,21 @@
     <head>
         <style>
             body {text-align:center}
+            .switch{position:relative;display:inline-block;width:80px;height:45px}
+            .slider{position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: lightgrey;transition: .4s}
+            .slider:before {position: absolute;content: "";height: 35px;width: 35px;left: 6px;bottom: 6px;background-color: white;transition: .4s}
+            input:checked + .slider {background-color: dodgerblue}
+            input:checked + .slider:before {transform: translateX(33.5px)}
+            .slider.round {border-radius: 23px;}
+            .slider.round:before {border-radius: 50%;}
         </style>
     </head>
     <body>
         <h1>Settings</h1>
-        <p1>Set</p1>
+        <p1>Set1</p1>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
     </body>
 </html>

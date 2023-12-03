@@ -5,42 +5,40 @@
         <style>
             .container{
                 text-align: center;
+                margin-left: auto; 
+                margin-right: 20;
+                width:80vw;
+                background-color: white;
             }
-            h1 {
+            label {
                 text-align: center;
-                margin:0 auto;
                 display:block;
             }
             button {
-                margin:8px auto;
                 width: 200px; 
                 height: 50px;
                 display:block;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
             }
             img {
                 margin:0 auto;
-                width:150px;
-                height:150px;
+                width:60vw;
             }
         </style>
     </head>
-    <body>
-        <img src="logo.jpg">
-        <h1>Welcome to Cancer Report!</h1>
-        <h1>Choose an option below to get started.</h1>
-        <p1> <br><br> </p1>
+    <body style="background-color:deepskyblue;">
         <div class="container">
-            <a href="2_log_in.html">
-            <button style="background-color: #34bdeb; border-color: #34bdeb; color: #FFFFFF">Log In</button>
-            </a>
-
-            <a href="3_register.html">
-            <button style="background-color: #34bdeb; border-color: #34bdeb; color: #FFFFFF">Register</button>
-            </a>
-
-            <a href="4_higher_Clearance.html">
-            <button style="background-color: #34bdeb; border-color: #34bdeb; color: #FFFFFF">Apply for Higher Clearance</button>
-            </a>
+            <div>
+                <label>Example Article:</label>
+                <div style="height:90vh; overflow-y: scroll;">
+                    <img src="article_example.png"><img>
+                </div>
+                <a href="6_active_studies.html">
+                    <button>Return</button>
+                </a>
+            </div>
         </div>
     </body>
 </html>

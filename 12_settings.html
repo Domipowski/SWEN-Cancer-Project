@@ -11,8 +11,7 @@
             input:checked + .slider {background-color: dodgerblue}
             input:checked + .slider:before {transform: translateX(33.5px)}
             .button {padding:5px 25px;font-size:16px;transition-duration:0.4s;cursor:pointer;border-radius:12px}
-            .button1:hover {background-color:dodgerblue;color:white}
-            			table,td,th{border:1px solid black}
+            .button1:hover {background-color:dodgerblue;color:white}            
         </style>
     </head>
     <body>
@@ -35,9 +34,9 @@
         <br><br><br><br>
         
         <p1>Account<br><br></p1>
-        <table style="width:75%" class="center">
+        <table style="table-layout: fixed; width: 75%;border-spacing: 40px 10px;" class="center">
             <tr>
-                <td><button class="button button1">Reset Email</button></td>
+                <td><button class="button button1">Reset Email Address</button></td>
                 <td><button class="button button1">Reset Password</button></td>
                 <td><button class="button button1">Reset Username</button></td>
             </tr>
@@ -46,10 +45,9 @@
         <br><br>
         
         <p1>Verification<br><br></p1>
-        <table style="width:75%" class="center">
+        <table style="table-layout: fixed; width: 75%;border-spacing: 40px 10px;" class="center">
             <tr>
                 <td><button class="button button1">Scientific Researcher Validation</button></td>
-                <td></td>
                 <td><button class="button button1">Medical Professional Validation</button></td>
             </tr>
         </table>
